@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.cen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfafa;
+    
+}
+.out {
+    background-color: #d5e1ef;
+    width: 1300px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px 2px #e0e0e0;
+}
+
+
+@media (min-width: 576px) {
+    
+}
+
+
+@media (min-width: 768px) {
+    .out {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .out {
+        width: 950px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .out {
+        width: 1150px;
+    }
+}
+
+.out .in {
+    width: 260px;
+    height: 425px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    border: 15px solid #ffffff;
+}
+.out .in img {
+    max-width: 100%;
+    border-radius: 16px;
+}
+.out .in div {
+    text-align: center;
+}
+.out .in div h3 {
+    margin: 10px 0 0 5px;
+    font-size: 20px;
+}
+.out .in div p {
+    margin: 15px;
+    font-size: 14px;
+}
